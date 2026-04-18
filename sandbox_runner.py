@@ -46,9 +46,9 @@ ALLOWED_COMMANDS = {
 
 # AAR 禁止访问的路径模式
 BLOCKED_PATHS = [
-    "/Users/bill/AIUCE/repo/core/constitution.py",
-    "/Users/bill/AIUCE/repo/l0_constitution.py",
-    "/Users/bill/AIUCE/repo/config.yaml",
+    "$HOME/AIUCE/repo/core/constitution.py",
+    "$HOME/AIUCE/repo/l0_constitution.py",
+    "$HOME/AIUCE/repo/config.yaml",
     str(SANDBOX_ROOT.parent / "aiuce-sandbox" / "external"),
 ]
 

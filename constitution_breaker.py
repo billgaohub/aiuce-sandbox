@@ -29,7 +29,7 @@ from typing import Optional
 # 路径配置
 # ═══════════════════════════════════════════════════════════
 
-AIUCE_ROOT = Path("/Users/bill/AIUCE")
+AIUCE_ROOT = Path("$HOME/AIUCE")
 REPORTS_DIR = AIUCE_ROOT / "reports"
 SANDBOX_ROOT = AIUCE_ROOT / "aiuce-sandbox"
 L0_REVIEWS_DIR = REPORTS_DIR / "l0_reviews"

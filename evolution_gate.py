@@ -41,7 +41,7 @@ from typing import Optional
 # 路径配置
 # ═══════════════════════════════════════════════════════════
 
-AIUCE_ROOT = Path("/Users/bill/AIUCE")
+AIUCE_ROOT = Path("$HOME/AIUCE")
 SANDBOX_ROOT = AIUCE_ROOT / "aiuce-sandbox"
 SANDBOX_RUNNER = SANDBOX_ROOT / "sandbox_runner.py"
 REPORTS_DIR = AIUCE_ROOT / "reports"
